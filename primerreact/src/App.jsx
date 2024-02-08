@@ -1,12 +1,8 @@
-import Footer from "./Footer"
-import Header from "./Header"
-import Main from "./Main"
+import ListaImagenesPage from "./ListaImagenesPage"
 
 const App=()=>{
     return <div className="container">
-        <Header/>
-        <Main/>
-        <Footer/>
+        <ListaImagenesPage/>
     </div>
 }
 
